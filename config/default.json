@@ -2,3 +2,6 @@
   "mongoURI": "mongodb+srv://kuan123:kuan123@dev-connected.lxfzj.mongodb.net/test?retryWrites=true&w=majority",
   "jwtToken": "mysecrettoken"
 }
+
+// why do we need to create this default.json folder? how is the process like?
+// any alternatives? what else can we store here?

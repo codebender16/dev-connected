@@ -1,6 +1,8 @@
 const jwt = require('jsonwebtoken');
 const config = require('config');
 
+// why we need the middleware? 
+// is there a way around it without using middleware?
 
 module.exports = function(req, res, next) {
   // get the token from the header

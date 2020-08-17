@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+// how to create foreign keys, joined tables and etc? 
+
 const UserSchema = new mongoose.Schema({
   name: {
     type: String,

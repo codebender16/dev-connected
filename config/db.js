@@ -2,6 +2,9 @@ const mongoose = require ('mongoose');
 const config = require('config');
 const db = config.get("mongoURI"); // URI obtained from mongodb site 
 
+// what is the purpose of the config folder. why this is not like rails where we can just create our schema and migrate? is there a migration folder? how do we update the schema?
+// when would we use mongoose? i know it is like rails model sql functions. 
+
 const connectDB = async () => {
   try {
     // mongo client constructor
